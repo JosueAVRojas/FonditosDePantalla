@@ -1,0 +1,82 @@
+/*Estilo de la pagina web*/
+
+body {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.galeria img{
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+
+.galeria .col{
+    margin-bottom: 35px;
+}
+
+.submenu{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.submenu li a{
+    text-decoration: none;
+    color: #9B9B9B;
+    padding: 20px;
+    display: block;
+}
+
+.submenu li{
+    display: inline-block;
+}
+
+.submenu li a:hover{
+    background: #e2d1c3;
+}
+
+.submenu a.galeria{
+    color: #000;
+}
+
+.submenu3{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.submenu3 li a{
+    text-decoration: none;
+    color: #9B9B9B;
+    padding: 20px;
+    display: block;
+}
+
+.submenu3 li{
+    display: inline-block;
+}
+
+.submenu3 li a:hover{
+    background: #e2d1c3;
+}
+
+.submenu3 a.equipo{
+    color: #000;
+}
